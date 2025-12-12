@@ -38,7 +38,7 @@ const app = express();
 app.use(
   cors({
     // ⭐️ origin에 설정되어 있는 포트번호를 본인의 라이브서버 포트번호로 변경해주세요.
-    origin: ["http://127.0.0.1:5500", "http://localhost:5500"],
+    origin: ["http://127.0.0.1:5502", "http://localhost:5502"],
     methods: ["OPTIONS", "POST", "GET", "DELETE"],
     credentials: true,
   })
